@@ -39,7 +39,7 @@ static void ui_Screen1_screen_init(void)
     // ui_Label1
     obj_style = lv_obj_create(ui_Screen1);
     obj_style2 = lv_obj_create(ui_Screen1);
-    obj_label = lv_label_create(obj_style);//样式也是可以继承的
+    obj_label = lv_label_create(obj_style);
     lv_obj_align(obj_style, LV_ALIGN_CENTER, 0, 0);//style对象放置在左上角
      // 普通样式 可以被多个对象使用
     lv_style_init(&style_obj);

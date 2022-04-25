@@ -114,7 +114,8 @@ int main()
     // lv_demo_printer();           // removed from repository
      //lv_demo_stress();            // ok
     //ui_init();
-    ui_init_02();
+    //ui_init_02();
+    ui_init_03();
     // ----------------------------------
     // LVGL examples
     // ----------------------------------
