@@ -25,7 +25,8 @@
 #include "lvgl/examples/lv_examples.h"
 #include "lvgl/demos/lv_demos.h"
 #include "lv_drivers/win32drv/win32drv.h"
-
+#include "lvgl/demos/label/ui.h"
+#include "lvgl/demos/label/ui_helpers.h"
 #if _MSC_VER >= 1200
 // Restore compilation warnings.
 #pragma warning(pop)
@@ -104,13 +105,13 @@ int main()
     // Demos from lv_examples
     // ----------------------------------
 
-    lv_demo_widgets();           // ok
+    //lv_demo_widgets();           // ok
     //lv_demo_benchmark();
     // lv_demo_keypad_encoder();    // ok
     // lv_demo_music();             // removed from repository
     // lv_demo_printer();           // removed from repository
-    // lv_demo_stress();            // ok
-
+     //lv_demo_stress();            // ok
+    ui_init();
     // ----------------------------------
     // LVGL examples
     // ----------------------------------

@@ -30,6 +30,8 @@
   <Import Project="LVGL.Portable.vcxitems" />
   <Import Project="LVGL.Drivers.vcxitems" />
   <ItemGroup>
+    <ClInclude Include="lvgl\demos\label\ui.h" />
+    <ClInclude Include="lvgl\demos\label\ui_helpers.h" />
     <ClInclude Include="lv_conf.h" />
   </ItemGroup>
   <ItemGroup>
@@ -44,6 +46,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LVGL.Simulator.cpp" />
+    <ClCompile Include="lvgl\demos\label\ui.c" />
+    <ClCompile Include="lvgl\demos\label\ui_helpers.c" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LVGL.Simulator.rc" />

@@ -5,6 +5,12 @@
   <ItemGroup>
     <ClInclude Include="lv_conf.h" />
     <ClInclude Include="lv_drv_conf.h" />
+    <ClInclude Include="lvgl\demos\label\ui.h">
+      <Filter>lvgl\demos\Label</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\demos\label\ui_helpers.h">
+      <Filter>lvgl\demos\Label</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Manifest Include="LVGL.Simulator.manifest" />
@@ -15,6 +21,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LVGL.Simulator.cpp" />
+    <ClCompile Include="lvgl\demos\label\ui.c">
+      <Filter>lvgl\demos\Label</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\demos\label\ui_helpers.c">
+      <Filter>lvgl\demos\Label</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LVGL.Simulator.rc" />
@@ -24,5 +36,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="freetype.props" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="lvgl\demos\Label">
+      <UniqueIdentifier>{7a9dd94d-e3c5-4802-8c60-2ba3e50f99d0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
