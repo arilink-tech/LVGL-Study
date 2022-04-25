@@ -11,6 +11,8 @@
     <ClInclude Include="lvgl\demos\label\ui_helpers.h">
       <Filter>lvgl\demos\Label</Filter>
     </ClInclude>
+    <ClInclude Include="lvgl\study\02_pos-size-layout\02_layout.h" />
+    <ClInclude Include="lvgl\study\03_style\03_style.h" />
   </ItemGroup>
   <ItemGroup>
     <Manifest Include="LVGL.Simulator.manifest" />
@@ -27,6 +29,8 @@
     <ClCompile Include="lvgl\demos\label\ui_helpers.c">
       <Filter>lvgl\demos\Label</Filter>
     </ClCompile>
+    <ClCompile Include="lvgl\study\02_pos-size-layout\02_layout.c" />
+    <ClCompile Include="lvgl\study\03_style\03_style.c" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LVGL.Simulator.rc" />
@@ -40,6 +44,12 @@
   <ItemGroup>
     <Filter Include="lvgl\demos\Label">
       <UniqueIdentifier>{7a9dd94d-e3c5-4802-8c60-2ba3e50f99d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\Study">
+      <UniqueIdentifier>{37dcaee1-6e71-42cf-a89a-71a2845664e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\Study\02_Pos-Size-Layout">
+      <UniqueIdentifier>{78353857-d733-4dad-9202-230aa46e59e6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

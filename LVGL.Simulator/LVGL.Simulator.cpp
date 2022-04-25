@@ -27,6 +27,8 @@
 #include "lv_drivers/win32drv/win32drv.h"
 #include "lvgl/demos/label/ui.h"
 #include "lvgl/demos/label/ui_helpers.h"
+#include "lvgl/study/02_pos-size-layout/02_layout.h"
+#include "lvgl/study/03_style/03_style.h"
 #if _MSC_VER >= 1200
 // Restore compilation warnings.
 #pragma warning(pop)
@@ -111,7 +113,8 @@ int main()
     // lv_demo_music();             // removed from repository
     // lv_demo_printer();           // removed from repository
      //lv_demo_stress();            // ok
-    ui_init();
+    //ui_init();
+    ui_init_02();
     // ----------------------------------
     // LVGL examples
     // ----------------------------------

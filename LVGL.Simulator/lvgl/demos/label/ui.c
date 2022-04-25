@@ -5,7 +5,7 @@
 
 #include "ui.h"
 #include "ui_helpers.h"
-
+#include "stdio.h"
 ///////////////////// VARIABLES ////////////////////
 lv_obj_t * ui_Screen1;
 lv_obj_t * ui_Label1;
@@ -37,23 +37,19 @@ void ui_Screen1_screen_init(void)
 
     ui_Label1 = lv_label_create(ui_Screen1);
     ui_Label2 = lv_label_create(ui_Screen1);
+
     lv_obj_set_width(ui_Label1, LV_SIZE_CONTENT);
     lv_obj_set_height(ui_Label1, LV_SIZE_CONTENT);
 
     lv_obj_set_x(ui_Label1, -94);
     lv_obj_set_y(ui_Label1, -5);
 
-    lv_obj_set_x(ui_Label1, -94);
-    lv_obj_set_y(ui_Label1, -10);
-
+    lv_obj_set_x(ui_Label2, -94);
+    lv_obj_set_y(ui_Label2, -20);
 
     lv_obj_set_align(ui_Label1, LV_ALIGN_CENTER);
-
     lv_obj_set_align(ui_Label2, LV_ALIGN_CENTER);
-
-    lv_label_set_text(ui_Label1, "Hello LVGL");
-    lv_label_set_text(ui_Label2, "Hello Arilink");
-
+    
 }
 
 void ui_init(void)
@@ -64,5 +60,6 @@ void ui_init(void)
     lv_disp_set_theme(dispp, theme);
     ui_Screen1_screen_init();
     lv_disp_load_scr(ui_Screen1);
+    printf("ui init");
 }
 
