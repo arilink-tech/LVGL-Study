@@ -38,6 +38,7 @@
     <ClInclude Include="lvgl\study\05_label\05_label.h" />
     <ClInclude Include="lvgl\study\06_button\06_button.h" />
     <ClInclude Include="lvgl\study\07_group\07_group.h" />
+    <ClInclude Include="lvgl\study\08_switch\08_switch.h" />
     <ClInclude Include="lv_conf.h" />
   </ItemGroup>
   <ItemGroup>
@@ -61,6 +62,7 @@
     <ClCompile Include="lvgl\study\05_label\05_label.c" />
     <ClCompile Include="lvgl\study\06_button\06_button.c" />
     <ClCompile Include="lvgl\study\07_group\07_group.c" />
+    <ClCompile Include="lvgl\study\08_switch\08_switch.c" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LVGL.Simulator.rc" />

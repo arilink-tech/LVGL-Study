@@ -2,10 +2,10 @@
 // SquareLine LVGL GENERATED FILE
 // EDITOR VERSION: SquareLine Studio 1.0.5
 // LVGL VERSION: 8.2
-// PROJECT: LVGL Group Study
+// PROJECT: LVGL Switch Study
 
-#ifndef _07_GROUP_H
-#define _07_GROUP_H
+#ifndef _08_SWITCH_H
+#define _08_SWITCH_H
 
 #ifdef __cplusplus
 extern "C" {
@@ -25,7 +25,7 @@ extern "C" {
 
 
 
-    void ui_init_07(void);
+    void ui_init_08(void);
 
 #ifdef __cplusplus
 } /*extern "C"*/

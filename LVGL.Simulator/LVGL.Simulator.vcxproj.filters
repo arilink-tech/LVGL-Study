@@ -29,6 +29,9 @@
     <ClInclude Include="lvgl\study\07_group\07_group.h">
       <Filter>lvgl\Study\07_group</Filter>
     </ClInclude>
+    <ClInclude Include="lvgl\study\08_switch\08_switch.h">
+      <Filter>lvgl\Study\08_switch</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Manifest Include="LVGL.Simulator.manifest" />
@@ -65,6 +68,9 @@
     </ClCompile>
     <ClCompile Include="lvgl\study\07_group\07_group.c">
       <Filter>lvgl\Study\07_group</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\study\08_switch\08_switch.c">
+      <Filter>lvgl\Study\08_switch</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -103,6 +109,12 @@
     </Filter>
     <Filter Include="lvgl\Study\07_group">
       <UniqueIdentifier>{bfa8e360-131d-4102-ac21-4087d68feed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\scripts">
+      <UniqueIdentifier>{4d91782a-f946-4027-b01a-23bb5ddca439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\Study\08_switch">
+      <UniqueIdentifier>{fc4f9b83-c36f-46e2-8818-5eaa3b30ed07}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
