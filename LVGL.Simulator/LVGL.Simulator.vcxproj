@@ -34,6 +34,7 @@
     <ClInclude Include="lvgl\demos\label\ui_helpers.h" />
     <ClInclude Include="lvgl\study\02_pos-size-layout\02_layout.h" />
     <ClInclude Include="lvgl\study\03_style\03_style.h" />
+    <ClInclude Include="lvgl\study\04_event\04_event.h" />
     <ClInclude Include="lv_conf.h" />
   </ItemGroup>
   <ItemGroup>
@@ -52,6 +53,7 @@
     <ClCompile Include="lvgl\demos\label\ui_helpers.c" />
     <ClCompile Include="lvgl\study\02_pos-size-layout\02_layout.c" />
     <ClCompile Include="lvgl\study\03_style\03_style.c" />
+    <ClCompile Include="lvgl\study\04_event\04_event.c" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LVGL.Simulator.rc" />

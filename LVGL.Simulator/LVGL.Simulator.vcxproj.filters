@@ -13,6 +13,7 @@
     </ClInclude>
     <ClInclude Include="lvgl\study\02_pos-size-layout\02_layout.h" />
     <ClInclude Include="lvgl\study\03_style\03_style.h" />
+    <ClInclude Include="lvgl\study\04_event\04_event.h" />
   </ItemGroup>
   <ItemGroup>
     <Manifest Include="LVGL.Simulator.manifest" />
@@ -31,6 +32,7 @@
     </ClCompile>
     <ClCompile Include="lvgl\study\02_pos-size-layout\02_layout.c" />
     <ClCompile Include="lvgl\study\03_style\03_style.c" />
+    <ClCompile Include="lvgl\study\04_event\04_event.c" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LVGL.Simulator.rc" />
