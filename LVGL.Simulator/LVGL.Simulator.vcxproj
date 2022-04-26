@@ -36,6 +36,7 @@
     <ClInclude Include="lvgl\study\03_style\03_style.h" />
     <ClInclude Include="lvgl\study\04_event\04_event.h" />
     <ClInclude Include="lvgl\study\05_label\05_label.h" />
+    <ClInclude Include="lvgl\study\06_button\06_button.h" />
     <ClInclude Include="lv_conf.h" />
   </ItemGroup>
   <ItemGroup>
@@ -57,6 +58,7 @@
     <ClCompile Include="lvgl\study\03_style\03_style.c" />
     <ClCompile Include="lvgl\study\04_event\04_event.c" />
     <ClCompile Include="lvgl\study\05_label\05_label.c" />
+    <ClCompile Include="lvgl\study\06_button\06_button.c" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LVGL.Simulator.rc" />
@@ -66,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="freetype.props" />
+    <None Include="lvgl\study\05_label\lv_study.mk" />
   </ItemGroup>
   <Import Project="Mile.Project\Mile.Project.targets" />
 </Project>
