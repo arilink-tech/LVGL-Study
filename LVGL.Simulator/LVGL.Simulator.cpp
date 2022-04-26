@@ -32,6 +32,7 @@
 #include "lvgl/study/04_event/04_event.h"
 #include "lvgl/study/05_label/05_label.h"
 #include "lvgl/study/06_button/06_button.h"
+#include "lvgl/study/07_group/07_group.h"
 #if _MSC_VER >= 1200
 // Restore compilation warnings.
 #pragma warning(pop)
@@ -121,7 +122,8 @@ int main()
     //ui_init_03();
     //ui_init_04();
     //ui_init_05();
-    ui_init_06();
+    //ui_init_06();
+    ui_init_07();
     // ----------------------------------
     // LVGL examples
     // ----------------------------------

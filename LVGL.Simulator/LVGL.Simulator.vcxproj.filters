@@ -26,6 +26,9 @@
     <ClInclude Include="lvgl\study\06_button\06_button.h">
       <Filter>lvgl\Study\06_button</Filter>
     </ClInclude>
+    <ClInclude Include="lvgl\study\07_group\07_group.h">
+      <Filter>lvgl\Study\07_group</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Manifest Include="LVGL.Simulator.manifest" />
@@ -59,6 +62,9 @@
     </ClCompile>
     <ClCompile Include="lvgl\study\06_button\06_button.c">
       <Filter>lvgl\Study\06_button</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\study\07_group\07_group.c">
+      <Filter>lvgl\Study\07_group</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +100,9 @@
     </Filter>
     <Filter Include="lvgl\Study\06_button">
       <UniqueIdentifier>{f7b90bb6-1272-4820-9d73-58e4d65ec41e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\Study\07_group">
+      <UniqueIdentifier>{bfa8e360-131d-4102-ac21-4087d68feed3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

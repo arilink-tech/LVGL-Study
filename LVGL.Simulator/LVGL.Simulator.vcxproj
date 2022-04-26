@@ -37,6 +37,7 @@
     <ClInclude Include="lvgl\study\04_event\04_event.h" />
     <ClInclude Include="lvgl\study\05_label\05_label.h" />
     <ClInclude Include="lvgl\study\06_button\06_button.h" />
+    <ClInclude Include="lvgl\study\07_group\07_group.h" />
     <ClInclude Include="lv_conf.h" />
   </ItemGroup>
   <ItemGroup>
@@ -59,6 +60,7 @@
     <ClCompile Include="lvgl\study\04_event\04_event.c" />
     <ClCompile Include="lvgl\study\05_label\05_label.c" />
     <ClCompile Include="lvgl\study\06_button\06_button.c" />
+    <ClCompile Include="lvgl\study\07_group\07_group.c" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LVGL.Simulator.rc" />
