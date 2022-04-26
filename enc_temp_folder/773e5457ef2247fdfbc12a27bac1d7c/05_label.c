@@ -73,8 +73,8 @@ static void ui_Screen1_screen_init(void)
     lv_obj_add_flag(label, LV_OBJ_FLAG_CLICKABLE);//开启CLICKABLE Event cb才可以捕获CLICKABLE事件 否则只能捕获系统刷新的post draw 和 post draw end事件
     lv_obj_add_event_cb(label, enent_cb, LV_EVENT_ALL, NULL);
     //显示中文需要先切换字体  LVGL默认只有1000余个汉字
-    lv_label_set_text(label, "你好中国");//使用内部lv_font_simsun_16_cjk 来显示中文（1000个左右）
-    lv_label_set_text(label3, "你好中国");//使用lv_font_opposans_medium_20 来显示中文(外部字体Oppo Sans字体)
+    lv_label_set_text(label, "你好中国");//使用lv_font_simsun_16_cjk 来显示中文
+    lv_label_set_text(label3, "你好中国");//使用lv_font_opposans_medium_20 来显示中文(外部字体)
     lv_obj_set_style_text_font(label, &lv_font_simsun_16_cjk, 0);
     LV_FONT_DECLARE(lv_font_opposans_medium_20);
     lv_obj_set_style_text_font(label3, &lv_font_opposans_medium_20, 0);

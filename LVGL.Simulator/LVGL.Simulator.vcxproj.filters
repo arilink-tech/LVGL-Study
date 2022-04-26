@@ -39,7 +39,6 @@
     <ClCompile Include="lvgl\demos\label\ui_helpers.c">
       <Filter>lvgl\demos\Label</Filter>
     </ClCompile>
-    <ClCompile Include="lvgl\src\font\lv_font_opposans_medium_20.c" />
     <ClCompile Include="lvgl\study\02_pos-size-layout\02_layout.c">
       <Filter>lvgl\Study\02_Pos-Size-Layout</Filter>
     </ClCompile>
@@ -51,6 +50,9 @@
     </ClCompile>
     <ClCompile Include="lvgl\study\05_label\05_label.c">
       <Filter>lvgl\Study\05_label</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_opposans_medium_20.c">
+      <Filter>lvgl\src\font</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
