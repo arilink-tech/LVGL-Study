@@ -11,9 +11,18 @@
     <ClInclude Include="lvgl\demos\label\ui_helpers.h">
       <Filter>lvgl\demos\Label</Filter>
     </ClInclude>
-    <ClInclude Include="lvgl\study\02_pos-size-layout\02_layout.h" />
-    <ClInclude Include="lvgl\study\03_style\03_style.h" />
-    <ClInclude Include="lvgl\study\04_event\04_event.h" />
+    <ClInclude Include="lvgl\study\02_pos-size-layout\02_layout.h">
+      <Filter>lvgl\Study\02_Pos-Size-Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\study\03_style\03_style.h">
+      <Filter>lvgl\Study\03_style</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\study\04_event\04_event.h">
+      <Filter>lvgl\Study\04_event</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\study\05_label\05_label.h">
+      <Filter>lvgl\Study\05_label</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Manifest Include="LVGL.Simulator.manifest" />
@@ -30,9 +39,19 @@
     <ClCompile Include="lvgl\demos\label\ui_helpers.c">
       <Filter>lvgl\demos\Label</Filter>
     </ClCompile>
-    <ClCompile Include="lvgl\study\02_pos-size-layout\02_layout.c" />
-    <ClCompile Include="lvgl\study\03_style\03_style.c" />
-    <ClCompile Include="lvgl\study\04_event\04_event.c" />
+    <ClCompile Include="lvgl\src\font\lv_font_opposans_medium_20.c" />
+    <ClCompile Include="lvgl\study\02_pos-size-layout\02_layout.c">
+      <Filter>lvgl\Study\02_Pos-Size-Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\study\03_style\03_style.c">
+      <Filter>lvgl\Study\03_style</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\study\04_event\04_event.c">
+      <Filter>lvgl\Study\04_event</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\study\05_label\05_label.c">
+      <Filter>lvgl\Study\05_label</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LVGL.Simulator.rc" />
@@ -52,6 +71,15 @@
     </Filter>
     <Filter Include="lvgl\Study\02_Pos-Size-Layout">
       <UniqueIdentifier>{78353857-d733-4dad-9202-230aa46e59e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\Study\03_style">
+      <UniqueIdentifier>{e405d696-ca7a-4722-a1ed-c66b72e5a447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\Study\04_event">
+      <UniqueIdentifier>{f19b5bca-8f8d-48c0-ab9a-bbc66c85e5f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\Study\05_label">
+      <UniqueIdentifier>{c85cdada-6432-4d27-8c8e-ab35b172a659}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

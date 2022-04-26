@@ -2,7 +2,7 @@
 // SquareLine LVGL GENERATED FILE
 // EDITOR VERSION: SquareLine Studio 1.0.5
 // LVGL VERSION: 8.2
-// PROJECT: SquareLine_Project
+// PROJECT: LVGL Event Study
 
 #ifndef _04_EVENT_H
 #define _04_EVENT_H

@@ -30,6 +30,7 @@
 #include "lvgl/study/02_pos-size-layout/02_layout.h"
 #include "lvgl/study/03_style/03_style.h"
 #include "lvgl/study/04_event/04_event.h"
+#include "lvgl/study/05_label/05_label.h"
 #if _MSC_VER >= 1200
 // Restore compilation warnings.
 #pragma warning(pop)
@@ -117,7 +118,8 @@ int main()
     //ui_init();
     //ui_init_02();
     //ui_init_03();
-    ui_init_04();
+    //ui_init_04();
+    ui_init_05();
     // ----------------------------------
     // LVGL examples
     // ----------------------------------

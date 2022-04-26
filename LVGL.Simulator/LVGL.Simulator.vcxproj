@@ -35,6 +35,7 @@
     <ClInclude Include="lvgl\study\02_pos-size-layout\02_layout.h" />
     <ClInclude Include="lvgl\study\03_style\03_style.h" />
     <ClInclude Include="lvgl\study\04_event\04_event.h" />
+    <ClInclude Include="lvgl\study\05_label\05_label.h" />
     <ClInclude Include="lv_conf.h" />
   </ItemGroup>
   <ItemGroup>
@@ -51,9 +52,11 @@
     <ClCompile Include="LVGL.Simulator.cpp" />
     <ClCompile Include="lvgl\demos\label\ui.c" />
     <ClCompile Include="lvgl\demos\label\ui_helpers.c" />
+    <ClCompile Include="lvgl\src\font\lv_font_opposans_medium_20.c" />
     <ClCompile Include="lvgl\study\02_pos-size-layout\02_layout.c" />
     <ClCompile Include="lvgl\study\03_style\03_style.c" />
     <ClCompile Include="lvgl\study\04_event\04_event.c" />
+    <ClCompile Include="lvgl\study\05_label\05_label.c" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LVGL.Simulator.rc" />
