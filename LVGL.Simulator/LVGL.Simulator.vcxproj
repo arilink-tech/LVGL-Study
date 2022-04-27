@@ -41,6 +41,7 @@
     <ClInclude Include="lvgl\study\08_switch\08_switch.h" />
     <ClInclude Include="lvgl\study\09_checkbox\09_checkBox.h" />
     <ClInclude Include="lvgl\study\10_dropDown\10_dropDown.h" />
+    <ClInclude Include="lvgl\study\11_roller\11_roller.h" />
     <ClInclude Include="lv_conf.h" />
   </ItemGroup>
   <ItemGroup>
@@ -67,6 +68,7 @@
     <ClCompile Include="lvgl\study\08_switch\08_switch.c" />
     <ClCompile Include="lvgl\study\09_checkbox\09_checkBox.c" />
     <ClCompile Include="lvgl\study\10_dropDown\10_dropDown.c" />
+    <ClCompile Include="lvgl\study\11_roller\11_roller.c" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LVGL.Simulator.rc" />

@@ -38,6 +38,9 @@
     <ClInclude Include="lvgl\study\10_dropDown\10_dropDown.h">
       <Filter>lvgl\Study\10_dropDown</Filter>
     </ClInclude>
+    <ClInclude Include="lvgl\study\11_roller\11_roller.h">
+      <Filter>lvgl\Study\11_roller</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Manifest Include="LVGL.Simulator.manifest" />
@@ -83,6 +86,9 @@
     </ClCompile>
     <ClCompile Include="lvgl\study\10_dropDown\10_dropDown.c">
       <Filter>lvgl\Study\10_dropDown</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\study\11_roller\11_roller.c">
+      <Filter>lvgl\Study\11_roller</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -133,6 +139,9 @@
     </Filter>
     <Filter Include="lvgl\Study\10_dropDown">
       <UniqueIdentifier>{89e7907b-1977-4439-8931-76d019201008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\Study\11_roller">
+      <UniqueIdentifier>{bd3e50cd-e304-471d-9ccd-62ab19c5ebd6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
