@@ -35,6 +35,7 @@
 #include "lvgl/study/07_group/07_group.h"
 #include "lvgl/study/08_switch/08_switch.h"
 #include "lvgl/study/09_checkbox/09_checkBox.h"
+#include "lvgl/study/10_dropDown/10_dropDown.h"
 #if _MSC_VER >= 1200
 // Restore compilation warnings.
 #pragma warning(pop)
@@ -127,7 +128,8 @@ int main()
     //ui_init_06();
     //ui_init_07();
     //ui_init_08();
-    ui_init_09();
+    //ui_init_09();
+    ui_init_10();
     // ----------------------------------
     // LVGL examples
     // ----------------------------------

@@ -35,6 +35,9 @@
     <ClInclude Include="lvgl\study\09_checkbox\09_checkBox.h">
       <Filter>lvgl\Study\09_checkBox</Filter>
     </ClInclude>
+    <ClInclude Include="lvgl\study\10_dropDown\10_dropDown.h">
+      <Filter>lvgl\Study\10_dropDown</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Manifest Include="LVGL.Simulator.manifest" />
@@ -77,6 +80,9 @@
     </ClCompile>
     <ClCompile Include="lvgl\study\09_checkbox\09_checkBox.c">
       <Filter>lvgl\Study\09_checkBox</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\study\10_dropDown\10_dropDown.c">
+      <Filter>lvgl\Study\10_dropDown</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -124,6 +130,9 @@
     </Filter>
     <Filter Include="lvgl\Study\09_checkBox">
       <UniqueIdentifier>{c8f1cfac-f07b-4f11-a176-d4d2721fea17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\Study\10_dropDown">
+      <UniqueIdentifier>{89e7907b-1977-4439-8931-76d019201008}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
