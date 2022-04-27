@@ -41,6 +41,9 @@
     <ClInclude Include="lvgl\study\11_roller\11_roller.h">
       <Filter>lvgl\Study\11_roller</Filter>
     </ClInclude>
+    <ClInclude Include="lvgl\study\12_bar\12_bar.h">
+      <Filter>lvgl\Study\12_bar</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Manifest Include="LVGL.Simulator.manifest" />
@@ -89,6 +92,9 @@
     </ClCompile>
     <ClCompile Include="lvgl\study\11_roller\11_roller.c">
       <Filter>lvgl\Study\11_roller</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\study\12_bar\12_bar.c">
+      <Filter>lvgl\Study\12_bar</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -142,6 +148,9 @@
     </Filter>
     <Filter Include="lvgl\Study\11_roller">
       <UniqueIdentifier>{bd3e50cd-e304-471d-9ccd-62ab19c5ebd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\Study\12_bar">
+      <UniqueIdentifier>{6c4ab0fb-e343-4667-8433-4eb5e3722fe3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
