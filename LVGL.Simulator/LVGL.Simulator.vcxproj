@@ -44,6 +44,7 @@
     <ClInclude Include="lvgl\study\11_roller\11_roller.h" />
     <ClInclude Include="lvgl\study\12_bar\12_bar.h" />
     <ClInclude Include="lvgl\study\13_slider\13_slider.h" />
+    <ClInclude Include="lvgl\study\14_demo1\14_demo1.h" />
     <ClInclude Include="lv_conf.h" />
   </ItemGroup>
   <ItemGroup>
@@ -73,6 +74,7 @@
     <ClCompile Include="lvgl\study\11_roller\11_roller.c" />
     <ClCompile Include="lvgl\study\12_bar\12_bar.c" />
     <ClCompile Include="lvgl\study\13_slider\13_slider.c" />
+    <ClCompile Include="lvgl\study\14_demo1\14_demo1.c" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LVGL.Simulator.rc" />

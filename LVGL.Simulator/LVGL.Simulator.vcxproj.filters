@@ -47,6 +47,9 @@
     <ClInclude Include="lvgl\study\13_slider\13_slider.h">
       <Filter>lvgl\Study\13_slider</Filter>
     </ClInclude>
+    <ClInclude Include="lvgl\study\14_demo1\14_demo1.h">
+      <Filter>lvgl\Study\14_demo1</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Manifest Include="LVGL.Simulator.manifest" />
@@ -101,6 +104,9 @@
     </ClCompile>
     <ClCompile Include="lvgl\study\13_slider\13_slider.c">
       <Filter>lvgl\Study\13_slider</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\study\14_demo1\14_demo1.c">
+      <Filter>lvgl\Study\14_demo1</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -160,6 +166,9 @@
     </Filter>
     <Filter Include="lvgl\Study\13_slider">
       <UniqueIdentifier>{9f42fc0a-1060-459c-b489-9f661ba1c098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\Study\14_demo1">
+      <UniqueIdentifier>{d1547d54-6398-4ad0-bc20-e7fc32b8af66}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

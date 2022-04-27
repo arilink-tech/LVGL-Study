@@ -39,6 +39,7 @@
 #include "lvgl/study/11_roller/11_roller.h"
 #include "lvgl/study/12_bar/12_bar.h"
 #include "lvgl/study/13_slider/13_slider.h"
+#include "lvgl/study/14_demo1/14_demo1.h"
 #if _MSC_VER >= 1200
 // Restore compilation warnings.
 #pragma warning(pop)
@@ -135,7 +136,8 @@ int main()
     //ui_init_10();
     //ui_init_11();
     //ui_init_12();
-    ui_init_13();
+    //ui_init_13();
+    ui_init_14();
     // ----------------------------------
     // LVGL examples
     // ----------------------------------
