@@ -3,7 +3,7 @@
 // LVGL VERSION: 8.2
 // PROJECT: SquareLine_Project
 
-#include "08_switch.h"
+#include "09_checkBox.h"
 #include "stdio.h"
 #include "lv_drivers/win32drv/win32drv.h"
 ///////////////////// VARIABLES ////////////////////
@@ -35,12 +35,20 @@ static void enent_cb(lv_event_t* event)
             else
                 printf("OFF\n");
         }
-    */
 
-    if(lv_obj_get_state(sw)&LV_STATE_CHECKED) //只能用&不能用==
-        printf("ON\n");
-    else
-        printf("OFF\n");
+        
+    */
+    lv_obj_t* obj = lv_event_get_target(event);//获取触发事件的对象
+    lv_event_code_t code = lv_event_get_code(event);
+    if (code == LV_EVENT_VALUE_CHANGED)
+    {
+        if (lv_obj_get_state(sw) & LV_STATE_CHECKED) //只能用&不能用==
+            printf("Checked\n");
+        else
+            printf("UnChecked\n");
+    }
+
+
 }
 ///////////////////// SCREENS ////////////////////
 static void ui_Screen1_screen_init(void)
@@ -49,21 +57,23 @@ static void ui_Screen1_screen_init(void)
     ui_Screen1 = lv_obj_create(NULL);
     lv_obj_clear_flag(ui_Screen1, LV_OBJ_FLAG_SCROLLABLE);
 
-    lv_obj_t* sw = lv_switch_create(ui_Screen1);
-    lv_obj_center(sw);//让sw对象居中
+    lv_obj_t* checkbox = lv_checkbox_create(ui_Screen1);
+    lv_obj_center(checkbox);//让sw对象居中
 
-    lv_obj_set_style_bg_color(sw, lv_color_hex(0x861b2d), LV_PART_MAIN);//默认整体背景色 
-    lv_obj_set_style_bg_opa(sw, 255, LV_PART_INDICATOR);
-    lv_obj_set_style_bg_color(sw, lv_color_hex(0xe07e4b), LV_PART_INDICATOR);//关闭时指示器的颜色
-    lv_obj_set_style_bg_color(sw, lv_color_hex(0xffd96a), LV_PART_INDICATOR|LV_STATE_CHECKED);//打开时指示器的颜色
-    //lv_obj_set_style_pad_right(sw, 10, LV_PART_MAIN);//向右偏移
-    //lv_obj_add_state(sw, LV_STATE_CHECKED);//设置默认状态为开
-    //lv_obj_add_state(sw, LV_STATE_CHECKED|LV_STATE_DISABLED);//设置默认状态为开且不可修改
-    lv_obj_add_event_cb(sw, enent_cb, 0, NULL, LV_EVENT_VALUE_CHANGED, NULL);
+    //lv_obj_set_style_bg_opa(checkbox, 100, 0); //改变背景颜色 需要调整透明度
+    //lv_obj_set_style_bg_color(checkbox, lv_color_hex(0x861b2d), LV_PART_MAIN);//默认整体背景色 
+    
+    lv_obj_set_style_pad_column(checkbox, 100, 0);//设置勾选框与文字的距离
+
+    //lv_obj_add_state(checkbox, LV_STATE_CHECKED);//设置默认勾选
+    lv_obj_add_state(checkbox, LV_STATE_CHECKED| LV_STATE_DISABLED);//设置默认勾选且不可改变
+    lv_obj_clear_state(checkbox, LV_STATE_DISABLED);//清除DISABLED
+    lv_obj_add_event_cb(checkbox, enent_cb, LV_EVENT_VALUE_CHANGED, NULL);
+
 }
 
 
-void ui_init_08(void)
+void ui_init_09(void)
 {
     lv_disp_t* dispp = lv_disp_get_default();
     lv_theme_t* theme = lv_theme_default_init(dispp, lv_palette_main(LV_PALETTE_BLUE), lv_palette_main(LV_PALETTE_RED), false, LV_FONT_DEFAULT);
@@ -73,3 +83,4 @@ void ui_init_08(void)
     printf("ui init \r\n");
 
 }
+

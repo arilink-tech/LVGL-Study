@@ -32,6 +32,9 @@
     <ClInclude Include="lvgl\study\08_switch\08_switch.h">
       <Filter>lvgl\Study\08_switch</Filter>
     </ClInclude>
+    <ClInclude Include="lvgl\study\09_checkbox\09_checkBox.h">
+      <Filter>lvgl\Study\09_checkBox</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Manifest Include="LVGL.Simulator.manifest" />
@@ -71,6 +74,9 @@
     </ClCompile>
     <ClCompile Include="lvgl\study\08_switch\08_switch.c">
       <Filter>lvgl\Study\08_switch</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\study\09_checkbox\09_checkBox.c">
+      <Filter>lvgl\Study\09_checkBox</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -115,6 +121,9 @@
     </Filter>
     <Filter Include="lvgl\Study\08_switch">
       <UniqueIdentifier>{fc4f9b83-c36f-46e2-8818-5eaa3b30ed07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\Study\09_checkBox">
+      <UniqueIdentifier>{c8f1cfac-f07b-4f11-a176-d4d2721fea17}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
